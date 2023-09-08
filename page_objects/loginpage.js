@@ -1,4 +1,4 @@
-class logintest
+class loginpage
 {
     elements = {
         stgurl: () => cy.visit ("https://staging.raptortech.com/"),
@@ -64,4 +64,4 @@ class logintest
     
 }
 
-module.exports = new logintest();
+module.exports = new loginpage();
